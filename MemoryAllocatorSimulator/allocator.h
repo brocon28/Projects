@@ -16,6 +16,5 @@ void initialize_heap();
 void* my_malloc(size_t size);
 void my_free(void* ptr);
 void print_heap_status(); // For debugging
-void print_heap_status();
 
 #endif
