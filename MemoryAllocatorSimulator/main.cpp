@@ -19,7 +19,7 @@ int main() {
     std::cout << "Allocated 128 bytes at " << ptr3 << std::endl;
 
     print_heap_status();
-    // You can add more allocations/frees and print_heap_status() for debugging
+    //add more allocations/frees and print_heap_status() for debugging
 
     return 0;
 }
