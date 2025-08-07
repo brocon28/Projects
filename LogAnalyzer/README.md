@@ -20,8 +20,9 @@ LogAnalyzer/
 
 ## Usage
 To analyze a log file, run the following:
-python3 analyzer.py logs/access.log
+python3 analyzer.py logs/access.log --save
 Replace `logs/access.log` with the path to any Apache log file you want to analyze.
+Also saves the file
 
 ## Sample Output
 --- Summary Report ---
