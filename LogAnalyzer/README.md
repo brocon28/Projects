@@ -68,3 +68,4 @@ Example Error Line:
 - Supports standard Apache log formats
 - Can be extended to output JSON, CSV, or graphical summaries
 - Built to be modular for future enhancements
+
