@@ -1,0 +1,39 @@
+
+--- Summary Report ---
+
+Total Requests: 9331
+Total Unique IPs: 1674
+Total Data Transferred: 2620.01 MB
+Estimated Bot Requests: 1017
+
+Top 5 IPs:
+66.249.73.135: 432 requests
+46.105.14.53: 364 requests
+130.237.218.86: 293 requests
+50.16.19.13: 113 requests
+209.85.238.199: 102 requests
+
+Top 5 Methods:
+GET: 9325 requests
+POST: 5 requests
+OPTIONS: 1 requests
+
+Top 5 Endpoints:
+/favicon.ico: 788 requests
+/style2.css: 532 requests
+/reset.css: 528 requests
+/images/jordan-80.png: 522 requests
+/images/web/2009/banner.png: 506 requests
+
+Status Code Counts:
+200: 8913 responses
+206: 45 responses
+301: 163 responses
+403: 2 responses
+404: 205 responses
+416: 2 responses
+500: 1 responses
+
+Total Errors (4xx and 5xx): 210
+Example Error Line:
+66.249.73.185 - - [17/May/2015:10:05:22 +0000] "GET /doc/index.html?org/elasticsearch/action/search/SearchResponse.html HTTP/1.1" 404 294 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
