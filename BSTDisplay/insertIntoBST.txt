@@ -1,0 +1,46 @@
+// Generic function for any dataset - you can use this for reference based on the selected dataset
+
+BSTElement<string, string>* insertIntoBST(__DATA MEMBERS FROM SELECTED DATASET__, BSTElement<string, string> *root)
+{
+    if (root == nullptr)
+    {
+        root = new BSTElement<string, string>(__DATA MEMBERS FROM SELECTED DATASET__);
+        return root;
+    }
+
+    if (actor > root->getKey())
+    {
+        root->setRight(insertIntoBST(__DATA MEMBERS FROM SELECTED DATASET__, root->getRight()));
+    }
+    else
+    {
+        root->setLeft(insertIntoBST(__DATA MEMBERS FROM SELECTED DATASET__, root->getLeft()));
+    }
+
+    return root;
+}
+
+
+//Example of insert function if you selected IMDb dataset 
+
+
+BSTElement<string, string>* insertIntoBST(string actor, string movie, BSTElement<string, string> *root)
+{
+    if (root == nullptr)
+    {
+        root = new BSTElement<string, string>(actor);
+        root->setLabel(movie);
+        return root;
+    }
+
+    if (actor > root->getKey())
+    {
+        root->setRight(insertIntoBST(actor, movie, root->getRight()));
+    }
+    else
+    {
+        root->setLeft(insertIntoBST(actor, movie, root->getLeft()));
+    }
+
+    return root;
+}
