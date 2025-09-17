@@ -1,22 +1,29 @@
-# Replit C++ Template for Programming Quiz 4
+# Programming Quiz 4 - Trees 🌳
 
-This is a Replit IDE template preloaded with the Bridges C++ library containing instructions for Programming Quiz 4.
+This project implements a **Binary Search Tree (BST)** using the [Bridges API](https://bridges-cs.herokuapp.com/).  
+It uses real-world game data, inserts it into the BST, and colors the nodes by level using a **level-order traversal** (BFS).  
+The tree is then visualized remotely through the Bridges platform.
 
-More information about the Bridges project can be found [here](http://bridgesuncc.github.io/index.html).
-The Bridges C++ library documentation can be found [here](http://bridgesuncc.github.io/doc/cxx-api/current/html/index.html).
+---
 
-When the Bridges library is updated, this repository should be updated shortly thereafter (if necessary).
+## 🚀 Features
+- Builds a BST using game ratings as keys and game titles as values.
+- Imports real-world data from the Bridges `Game` dataset.
+- Performs level-order traversal (BFS) to color nodes by level.
+- Each level is assigned a unique color (no two consecutive levels share the same color).
+- Visualizes the BST online using Bridges.
 
-## Overview
+---
 
-This assignment will give you exposure to the Bridges API, which provides access to real data sets and tools for data structure visualization. 
+## 📸 Visualization
+Here’s what the final BST visualization looks like (colors by level):
+http://bridges-cs.herokuapp.com/assignments/1/brocon28
+<img width="1599" height="727" alt="image" src="https://github.com/user-attachments/assets/a5b68d14-9414-4e9c-a6bd-5ea454e373d2" />
 
-In this assignment, you will create an interactive visualization of a Binary Search Tree (BST) containing data from any Bridges data set. You are given a sample Bridges BST insert function which you can use to construct your tree.
 
-You will need to import any Bridges data set, insert the data into a Bridges BST, and color the nodes in the tree using a level-order traversal. You will then make an API request to create a visualization for your colorful tree.
+**[Insert Screenshot Here]**  
+*(add your visualization image here once you upload it to GitHub)*
 
-Completing this assignment will develop your skills in working with binary trees and external APIs over the Internet. 
+---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
